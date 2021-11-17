@@ -1,4 +1,4 @@
-import { Type } from '@nestjs/common';
+import { Type } from './type';
 import { MappedType } from './mapped-type.interface';
 import {
   inheritPropertyInitializers,
@@ -24,7 +24,7 @@ export function IntersectionType<A, B, C, D>(
   sourceD: Type<D>,
 ): MappedType<A & B & C & D>;
 
-export function IntersectionType<A, T extends { new (...arg: any): any }[]>(
+export function IntersectionType<A, T extends { new(...arg: any): any }[]>(
   classA: Type<A>,
   ...classRefs: T
 ): MappedType<A> {

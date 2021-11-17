@@ -1,4 +1,4 @@
-import { Type } from '@nestjs/common';
+import { Type } from './type';
 import { MappedType } from './mapped-type.interface';
 import {
   applyIsOptionalDecorator,
