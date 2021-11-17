@@ -6,6 +6,10 @@ package-lock.json
 tslint.json
 tsconfig.json
 .prettierrc
+.eslintignore
+.eslintrc.json
+.commitlintrc.json
+.release-it.json
 
 # github
 .github

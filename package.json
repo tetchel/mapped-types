@@ -1,7 +1,7 @@
 {
-  "name": "@nestjs/mapped-types",
-  "version": "1.0.0",
-  "description": "Nest - modern, fast, powerful node.js web framework (@mapped-types)",
+  "name": "@tetchel/mapped-types",
+  "version": "2.0.0",
+  "description": "Fork of @nestjs/mapped-types without the @nestjs/common dependency",
   "author": "Kamil Mysliwiec",
   "license": "MIT",
   "url": "https://github.com/nestjs/mapped-types#readme",
